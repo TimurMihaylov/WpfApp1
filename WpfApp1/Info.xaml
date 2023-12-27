@@ -1,0 +1,53 @@
+﻿<Page x:Class="WpfApp1.Info"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Info">
+
+    <Grid Background="CornflowerBlue">
+        <StackPanel>
+            <TextBlock Height="35"></TextBlock>
+            <TextBlock Height="65"
+                       TextAlignment="Center"
+                       FontSize="22"
+                       Foreground="White"                       
+                       FontWeight="Bold"><Run Text="Преподватели |  "/><Run Text="Солдатова Светлана Ивановна"/></TextBlock>
+            <TextBlock Height="30" ></TextBlock>
+            <TextBlock
+                HorizontalAlignment="Center"
+                FontSize="18"
+                FontWeight="Bold"
+                Text="Общая информация" Foreground="white"></TextBlock>
+            <TextBlock
+                HorizontalAlignment="Left"
+                FontSize="18"
+                Text="Высшее педагогическое образование" Foreground="white" Margin="40,0"></TextBlock>
+            <TextBlock
+                HorizontalAlignment="Left"
+                FontSize="18"
+                Text="Стаж работы: 12 лет" Foreground="white" Margin="40,0"></TextBlock>
+            <TextBlock
+                HorizontalAlignment="Left"
+                FontSize="18"
+                Text="Преподаватель информатики и программирования и" Foreground="white" Margin="40,0"></TextBlock>
+            <TextBlock Height="30"></TextBlock>
+            <TextBlock Height="25"
+                       TextAlignment="Center"
+                       FontSize="18"
+                       Foreground="White"
+                       FontWeight="Bold" Text="Текущие группы"/>
+            <TextBlock
+                HorizontalAlignment="Left"
+                FontSize="18"
+                Text="Классное руководство: 41П" Foreground="white" Margin="80,0"></TextBlock>
+            <TextBlock
+                HorizontalAlignment="Left"
+                FontSize="18"
+                Text="Текущие группы: 41п, 42п, 31п, 37п, 22п, 17п" Foreground="white" Margin="80,0"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
